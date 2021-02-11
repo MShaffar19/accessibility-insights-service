@@ -2820,9 +2820,9 @@
   integrity sha512-ge4xZ3vSBornVYlDnk7yZ0gK6ChHf/CHB7Gl1I0Jhah8DDnEQqBzgohYG4FX4p81TNirSETOiSyn+y1r9/IR6w==
 
 "@types/node@^14.14.10":
-  version "14.14.22"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.22.tgz#0d29f382472c4ccf3bd96ff0ce47daf5b7b84b18"
-  integrity sha512-g+f/qj/cNcqKkc3tFqlXOYjrmZA+jNBiDzbP3kH+B+otKFqAdPgVTGP1IeKRdMml/aE69as5S4FqtxAbl+LaMw==
+  version "14.14.25"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.25.tgz#15967a7b577ff81383f9b888aa6705d43fbbae93"
+  integrity sha512-EPpXLOVqDvisVxtlbvzfyqSsFeQxltFbluZNRndIb8tr9KiBnYNLzrc1N3pyKUCww2RNrfHDViqDWWE1LCJQtQ==
 
 "@types/node@^8.0.47":
   version "8.10.62"
@@ -3639,10 +3639,10 @@ apify-client@^0.6.0:
     type-check "^0.3.2"
     underscore "^1.9.1"
 
-apify-shared@>=0.5.0, apify-shared@^0.1.45, apify-shared@^0.4.0, apify-shared@^0.5.0:
-  version "0.5.8"
-  resolved "https://registry.yarnpkg.com/apify-shared/-/apify-shared-0.5.8.tgz#5a79c204fb7017f415284bf31e243f62c8dc8806"
-  integrity sha512-JUDkoAIftPY7udKfJzhOra4yzPiSWsVm0nvYY2JS/7bU6AHjMjk2Ghxcf3c1zuJvdx54gQxfrK/lz8BXvX3gDA==
+apify-shared@>=0.5.0, apify-shared@^0.1.45, apify-shared@^0.4.0, apify-shared@^0.5.0, apify-shared@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/apify-shared/-/apify-shared-0.6.0.tgz#b410efe378b8e53568963eb33658a6090fe3827e"
+  integrity sha512-GSTV0BZ0L2kSYec/EXmaUebbDCB3K+pA/WV1Azlcpod0MhTJNsCi9sKARp/XxdhnjCNIHcxaJYiKD1vZA39sEw==
   dependencies:
     axios "^0.21.1"
     chalk "^4.0.0"
@@ -3652,7 +3652,7 @@ apify-shared@>=0.5.0, apify-shared@^0.1.45, apify-shared@^0.4.0, apify-shared@^0
     create-hmac "^1.1.7"
     git-url-parse "^11.4.4"
     is-buffer "^2.0.5"
-    marked "^1.2.4"
+    marked "^2.0.0"
     match-all "^1.2.6"
     moment "^2.29.1"
     request "^2.88.0"
@@ -6723,14 +6723,7 @@ git-up@^4.0.0:
     is-ssh "^1.3.0"
     parse-url "^5.0.0"
 
-git-url-parse@^11.1.2:
-  version "11.1.3"
-  resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-11.1.3.tgz#03625b6fc09905e9ad1da7bb2b84be1bf9123143"
-  integrity sha512-GPsfwticcu52WQ+eHp0IYkAyaOASgYdtsQDIt4rUp6GbiNt1P9ddrh3O0kQB0eD4UJZszVqNT3+9Zwcg40fywA==
-  dependencies:
-    git-up "^4.0.0"
-
-git-url-parse@^11.4.4:
+git-url-parse@^11.1.2, git-url-parse@^11.4.4:
   version "11.4.4"
   resolved "https://registry.yarnpkg.com/git-url-parse/-/git-url-parse-11.4.4.tgz#5d747debc2469c17bc385719f7d0427802d83d77"
   integrity sha512-Y4o9o7vQngQDIU9IjyCmRJBin5iYjI5u9ZITnddRZpD7dcCFQj2sL2XuMNbLRE4b4B/4ENPsp2Q8P44fjAZ0Pw==
@@ -8955,7 +8948,7 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@1.0.0, marked@>=1.1.1, marked@^1.2.4:
+marked@1.0.0, marked@>=1.1.1, marked@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/marked/-/marked-2.0.0.tgz#9662bbcb77ebbded0662a7be66ff929a8611cee5"
   integrity sha512-NqRSh2+LlN2NInpqTQnS614Y/3NkVMFFU6sJlRFEpxJ/LHuK/qJECH7/fXZjk4VZstPW/Pevjil/VtSONsLc7Q==
@@ -11517,9 +11510,9 @@ socket.io-parser@>=3.4.1, socket.io-parser@~4.0.3:
     debug "~4.3.1"
 
 socket.io@>=2.4.0, socket.io@^2.3.0:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-3.1.0.tgz#4f3accda31e95893f618090c9cb5e85d345421fb"
-  integrity sha512-Aqg2dlRh6xSJvRYK31ksG65q4kmBOqU4g+1ukhPcoT6wNGYoIwSYPlCPuRwOO9pgLUajojGFztl6+V2opmKcww==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/socket.io/-/socket.io-3.1.1.tgz#905e3d4a3b37d8e7970e67a4a6eb81110a5778ba"
+  integrity sha512-7cBWdsDC7bbyEF6WbBqffjizc/H4YF1wLdZoOzuYfo2uMNSFjJKuQ36t0H40o9B20DO6p+mSytEd92oP4S15bA==
   dependencies:
     "@types/cookie" "^0.4.0"
     "@types/cors" "^2.8.8"
@@ -12503,12 +12496,7 @@ unbzip2-stream@^1.3.3:
     buffer "^5.2.1"
     through "^2.3.8"
 
-"underscore@>= 1.3.1", underscore@^1.10.2, underscore@^1.9.1:
-  version "1.10.2"
-  resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.10.2.tgz#73d6aa3668f3188e4adb0f1943bd12cfd7efaaaf"
-  integrity sha512-N4P+Q/BuyuEKFJ43B9gYuOj4TQUHXX+j2FqguVOpjkssLUUrnJofCcBccJSCoeturDoZU6GorDTHSvUDlSQbTg==
-
-underscore@^1.11.0:
+"underscore@>= 1.3.1", underscore@^1.10.2, underscore@^1.11.0, underscore@^1.9.1:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/underscore/-/underscore-1.12.0.tgz#4814940551fc80587cef7840d1ebb0f16453be97"
   integrity sha512-21rQzss/XPMjolTiIezSu3JAjgagXKROtNrYFEOWK109qY1Uv2tVjPTZ1ci2HgvQDA16gHYSthQIJfB+XId/rQ==
